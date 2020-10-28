@@ -1,0 +1,11 @@
+img{
+    position: absolute;
+}
+#img1{
+    opacity: 1;
+    width: 20vw;
+    transition: opacity 0.3s;
+}
+#img1:hover{
+    opacity: 0;
+}
