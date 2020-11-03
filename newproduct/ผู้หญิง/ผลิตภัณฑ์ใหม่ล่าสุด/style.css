@@ -1,0 +1,89 @@
+@import url(//db.onlinewebfonts.com/c/35e5d1a7aa6da471de4cfb4a47ebaca8?family=Futura+Std+Book);
+body{
+    font-family:"Futura Std Book"; src: url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.eot"); src: url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.woff") format("woff"), url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.svg#Futura Std Book") format("svg");
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    }
+
+.affix + .container-fluid {
+    padding-top: 70px;
+    }
+.newproduct{
+    margin-left: -16px;
+    margin-top: -8px;
+    padding: 16px 24px 16px 44.8438px; 
+}
+.textNewproduct{
+    font-size: 18px;
+}
+.productonline{
+    width: 177.28px;
+    height: 72px;
+    margin-top: -8px;
+    margin-right: 142px;
+
+}
+.filter{
+    width: 150.14px;
+    height: 72px;
+    margin-left: -16px;
+    margin-top: -72px;
+    margin-left: 1193px;
+}
+.imghover1 {
+display: block;
+width: 402px;
+height: 400px;
+background: url('1-1.png'); /* ที่อยู่รูปภาพที่1 */
+transition: 0.3s; 
+}
+.imghover1:hover {
+background-image : url('1-2.png'); /* ที่อยู่รูปภาพที่2 */
+}
+.con1{
+    margin-left: 18px;
+}
+.con2{
+    margin-left: 18px;
+    margin-top: 60px;
+}
+.con3{
+    margin-top:20px;
+    margin-left: -2px;
+}
+.con4{
+    
+    margin-left: 16px;
+    margin-top: 0px;
+}
+.con5{
+    margin-left: 16px;
+    margin-top: 0px;
+}
+.con6{
+    margin-left: 16px;
+    margin-top: 0px;
+}
+.button4{
+    margin-top: 40px;
+    background-color: #ffffff; /* Green */
+    border: 0.5px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 240px;
+    height: 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.button4:hover{
+    background-color: rgb(233, 231, 231);
+    color: black;
+    border: none;
+}
