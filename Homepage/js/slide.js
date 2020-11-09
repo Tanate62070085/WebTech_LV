@@ -37,15 +37,18 @@ $(".btn-next").click(function(){
     })
 })
 $(".btn-prev").click(function(){
+    $(imgid[2]).css("z-index","-1")
+    $(imgid[1]).css("z-index","-2")
     count = imgid[1];
     imgid[1] = imgid[2];
     imgid[2] = count;
     
     
-    $(imgid[0]).animate({opacity : "0"},function(){
-        $(imgid[0]).css("z-index","-2")
+    $(imgid[0]).animate({opacity : "0"},1000,function(){
+        $(imgid[0]).css("z-index","-1")
         $(imgid[1]).css("z-index","0")
-        $(imgid[2]).css("z-index","-1")
+        $(imgid[2]).css("z-index","-2")
+        $(imgid[0]).animate({opacity : "1"})
         count = imgid[0]
         imgid[0] = imgid[1]
         imgid[1] = count
