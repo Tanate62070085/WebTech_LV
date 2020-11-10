@@ -48,16 +48,16 @@ background-image : url('http://image.free.in.th/v/2013/iv/201109092749.png'); /*
 }
 .con2{
     margin-left: 18px;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 .con3{
-    margin-top:20px;
-    margin-left: 10px;
+    margin-top:60px;
+    margin-left: -2px;
 }
 .con4{
     
     margin-left: 16px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 .con5{
     margin-left: 16px;
@@ -65,7 +65,7 @@ background-image : url('http://image.free.in.th/v/2013/iv/201109092749.png'); /*
 }
 .con6{
     margin-left: 16px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .button4{
     margin-top: 40px;
