@@ -14,6 +14,13 @@ img{
     z-index: -2;
     position: absolute;
 }
+#pic4{
+    z-index: -3;
+    position: absolute;
+}#pic1,#pic2,#pic3,#pic4{
+    border: 1px solid lightgrey;
+    height: 70vh;
+}
 .head{
     margin-top: 7vh;
     font-family: 'Roboto', sans-serif;
@@ -25,9 +32,9 @@ img{
 }
 .btn-next{
     z-index: 3;
-    position: absolute;
+    position: fixed;
     margin-top: 10%;
-    margin-left: 95vw;
+    right: 0;
     width: 55px;
     height: 55px;
     border: none;
@@ -51,8 +58,6 @@ body{
 }
 .btn-link {
     text-align: center;
-    position: absolute;
-    /* margin-top: 65vh; */
     margin-left: 30vw;
     background-color: rgb(0, 0, 0) !important;
     padding: 1rem;
