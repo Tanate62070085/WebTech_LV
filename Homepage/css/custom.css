@@ -1,25 +1,22 @@
-img{
-    width: 100vw;
+div{
+    margin: 0%;
+}
+body{
+    margin: 0%;
+}
+.slide-pic{
+    width: 100%;
     overflow: hidden;
 }
-#pic1{
-    z-index: 0;
-    position: absolute;
+.slide{
+    width: 100%;
 }
-#pic2{
-    z-index: -1;
-    position: absolute;
-}
-#pic3{
-    z-index: -2;
-    position: absolute;
-}
-#pic4{
-    z-index: -3;
-    position: absolute;
-}#pic1,#pic2,#pic3,#pic4{
-    border: 1px solid lightgrey;
+.slide-element{
+    outline:lightgray solid 1px;
+    outline-offset: -1px;
     height: 70vh;
+    background-color: white;
+    position: absolute;
 }
 .head{
     margin-top: 7vh;
@@ -28,11 +25,11 @@ img{
 }
 .menu-bar{
     height: 20vh;
-    width: 100vw;
+    width: 100%;
 }
 .btn-next{
     z-index: 3;
-    position: fixed;
+    position: absolute;
     margin-top: 10%;
     right: 0;
     width: 55px;
@@ -50,17 +47,12 @@ img{
     outline: none;
 
 }
-div{
-    margin-left: 0%;
-}
-body{
-    margin: 0%;
-}
+
 .btn-link {
     text-align: center;
-    margin-left: 30vw;
+    margin-left: 30.5vw;
     background-color: rgb(0, 0, 0) !important;
-    padding: 1rem;
+    padding: 1rem 4rem 1rem 4rem;
     text-decoration-line: none;
     color: white !important;
     transition:color 0.5s, background-color 0.5s !important;
@@ -69,9 +61,94 @@ body{
     background-color: white !important;
     color: black !important;
 }
-.head{
-    background-color: white;
+.btn-link2{
+    text-align: center;
+    margin-left: 0.5vw;
+    background-color: rgb(255, 255, 255) !important;
+    padding: 1rem 4rem 1rem 4rem;
+    text-decoration-line: none;
+    color: rgb(0, 0, 0) !important;
+    outline: rgb(0, 0, 0) solid 1px;
+    outline-offset: -1px;
+    
 }
-#pic1,#pic2,#pic3{
-    background-color: white;
+.mosaepic{
+    position: relative;
+    width: 85%;
+    margin: 3vw;
+}
+.row1{
+    position: relative;
+    margin-top: 70vh;
+    width: 100%;
+    height: 140vh;
+}
+.row2{
+    width: 100%;
+    height: 50vh;
+}
+.col-1-ex{
+    position: absolute;
+    outline:lightgray solid 1px;
+    outline-offset: -1px;
+    width: 50%;
+    height: 100%;
+}
+.col-2-ex{
+    outline:lightgray solid 1px;
+    outline-offset: -1px;
+    position: absolute;
+    width: 50%;
+    height: 60vh;
+    right: 0;
+}
+.col-3-ex{
+    outline:lightgray solid 1px;
+    outline-offset: -1px;
+    position: absolute;
+    width: 50%;
+    margin-top: 60vh;
+    height: 80vh;
+    /* height: 67.73vh; */
+    right: 0;
+}
+.col-1{
+    outline:lightgray solid 1px;
+    position: absolute;
+    outline-offset: -1px;
+    height: 100%;
+    width: 33.33%;
+}
+.col-2{
+    outline:lightgray solid 1px;
+    position: absolute;
+    outline-offset: -1px;
+    height: 100%;
+    margin-left: 33.33%;
+    width: 33.33%;
+}
+.col-3{
+    outline:lightgray solid 1px;
+    position: absolute;
+    margin-left: 66.66%;
+    outline-offset: -1px;
+    height: 100%;
+    width: 33.33%;
+}
+.mosae-element{
+    border: 1px solid lightgrey;
+    position: absolute;
+
+}
+#pic1{
+    z-index: 0;
+}
+#pic2{
+    z-index: -1;
+}
+#pic3{
+    z-index: -2;
+}
+#pic4{
+    z-index: -3;
 }
