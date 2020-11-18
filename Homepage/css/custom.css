@@ -4,6 +4,15 @@ div{
 body{
     margin: 0%;
 }
+.border-lightgray{
+    outline:lightgray solid 0.5px;
+    outline-offset: -0.5px;
+}
+.logo{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    border-bottom: 1px solid #392d23;
+}
 .slide-pic{
     width: 100%;
     overflow: hidden;
@@ -19,7 +28,6 @@ body{
     position: absolute;
 }
 .head{
-    margin-top: 7vh;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
@@ -77,6 +85,9 @@ body{
     width: 85%;
     margin: 3vw;
 }
+.mosaepic2{
+    margin: 3vh 2vw 3vh 2vw;
+}
 .row1{
     position: relative;
     margin-top: 70vh;
@@ -109,30 +120,29 @@ body{
     width: 50%;
     margin-top: 60vh;
     height: 80vh;
-    /* height: 67.73vh; */
     right: 0;
 }
 .col-1{
     outline:lightgray solid 1px;
     position: absolute;
     outline-offset: -1px;
-    height: 100%;
+    height: 50vh;
     width: 33.33%;
 }
 .col-2{
     outline:lightgray solid 1px;
     position: absolute;
     outline-offset: -1px;
-    height: 100%;
+    height:50vh;
     margin-left: 33.33%;
     width: 33.33%;
 }
 .col-3{
     outline:lightgray solid 1px;
     position: absolute;
-    margin-left: 66.66%;
+    right: 0;
     outline-offset: -1px;
-    height: 100%;
+    height: 50vh;
     width: 33.33%;
 }
 .mosae-element{
