@@ -1,0 +1,109 @@
+@import url(//db.onlinewebfonts.com/c/35e5d1a7aa6da471de4cfb4a47ebaca8?family=Futura+Std+Book);
+body{
+    font-size: 1.125rem;
+    letter-spacing: .025rem;
+    line-height: 2rem;
+    font-weight: 300;
+    color: inherit;
+    color: #19110b;
+    font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+    
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    }
+
+.affix + .container-fluid {
+    padding-top: 70px;
+    }
+.newproduct{
+    margin-left: -16px;
+    margin-top: -8px;
+    padding: 16px 24px 16px 44.8438px; 
+}
+.textNewproduct{
+    font-size: 18px;
+}
+.productonline{
+    width: 177.28px;
+    height: 72px;
+    margin-top: -8px;
+    margin-right: 142px;
+
+}
+.filter{
+    width: 150.14px;
+    height: 72px;
+    margin-left: -16px;
+    margin-top: -72px;
+    margin-left: 1193px;
+}
+.imghover1 {
+display: block;
+width: 402px;
+height: 400px;
+background: url('http://image.free.in.th/v/2013/ie/201109092708.png'); /* ที่อยู่รูปภาพที่1 */
+transition: 300ms; 
+}
+.imghover1:hover {
+background-image : url('http://image.free.in.th/v/2013/iv/201109092749.png'); /* ที่อยู่รูปภาพที่2 */
+}
+.con1{
+    margin-left: 2%;
+}
+.con2{
+    margin-left: 2%;
+    margin-top: 15px;
+}
+.con3{
+    margin-top:60px;
+    margin-left: 2%;
+}
+.con4{
+    
+    margin-left: 2%;
+    margin-top: 20px;
+}
+.con5{
+    margin-left: 2%;
+    margin-top: 20px;
+}
+.con6{
+    margin-left: 2%;
+    margin-top: 20px;
+}
+.button4{
+    margin-top: 40px;
+    background-color: #ffffff; /* Green */
+    border: 0.5px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 240px;
+    height: 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.button4:hover{
+    background-color: rgb(233, 231, 231);
+    color: black;
+    border: none;
+}
+
+.opacityimg1{
+    opacity:1.0; 
+    filter:alpha(opacity=100);
+    transition: 0.4s;
+}
+.opacityimg1:hover
+{
+opacity: 0;
+filter:alpha(opacity=100);
+}
+
