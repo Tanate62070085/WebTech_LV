@@ -8,11 +8,6 @@ body{
     outline:lightgray solid 0.5px;
     outline-offset: -0.5px;
 }
-.logo{
-    padding-top: 4vh;
-    padding-bottom: 4vh;
-    border-bottom: 1px solid #392d23;
-}
 .slide-pic{
     width: 100%;
     overflow: hidden;
@@ -30,10 +25,19 @@ body{
 .head{
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    font-weight: 900;
+    font-size: 200%;
+}
+.head-col{
+    margin:0 1vw 0 1vw;
+    font-size: 170%;
 }
 .menu-bar{
     height: 20vh;
     width: 100%;
+}
+.button-group{
+    margin-top: 4vh;
 }
 .btn-next{
     z-index: 3;
@@ -58,9 +62,9 @@ body{
 
 .btn-link {
     text-align: center;
-    margin-left: 30.5vw;
+    margin-left: 33.5vw;
     background-color: rgb(0, 0, 0) !important;
-    padding: 1rem 4rem 1rem 4rem;
+    padding: 1.25rem 5rem 1.25rem 5rem;
     text-decoration-line: none;
     color: white !important;
     transition:color 0.5s, background-color 0.5s !important;
@@ -73,12 +77,15 @@ body{
     text-align: center;
     margin-left: 0.5vw;
     background-color: rgb(255, 255, 255) !important;
-    padding: 1rem 4rem 1rem 4rem;
+    padding:1.25rem 5rem 1.25rem 5rem;
     text-decoration-line: none;
     color: rgb(0, 0, 0) !important;
     outline: rgb(0, 0, 0) solid 1px;
-    outline-offset: -1px;
-    
+    outline-offset: -1px; 
+    transition: outline 0.5s; 
+}
+.btn-link2:hover{
+    outline: #fff solid 1px;
 }
 .mosaepic{
     position: relative;
@@ -108,6 +115,7 @@ body{
 .col-2-ex{
     outline:lightgray solid 1px;
     outline-offset: -1px;
+    padding-top: 20vh;
     position: absolute;
     width: 50%;
     height: 60vh;
