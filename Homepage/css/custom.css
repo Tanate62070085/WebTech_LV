@@ -13,7 +13,10 @@ body{
     overflow: hidden;
 }
 .slide{
+    position: relative;
     width: 100%;
+    height: 70vh;
+    margin-top: 112px;
 }
 .slide-element{
     outline:lightgray solid 1px;
@@ -97,7 +100,6 @@ body{
 }
 .row1{
     position: relative;
-    margin-top: 70vh;
     width: 100%;
     height: 140vh;
 }

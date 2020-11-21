@@ -1,6 +1,7 @@
 .container-fluid.menutop1{ 
     border-bottom: 2px solid rgb(246, 245, 243); 
     height:40px !important;
+    background-color: white;
 }
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
@@ -9,6 +10,7 @@
 .menu1{        
     height:40px !important;
     margin-left: 15px;
+    
 
 }
 .link1{
@@ -17,6 +19,7 @@
 .container-fluid.menutop2{ 
     border-bottom: 2px solid rgb(246, 245, 243); 
     height:72px !important;
+    background-color: white;
 }
 
 a.navbar-brand, .link2{
@@ -65,5 +68,5 @@ a:hover{
     
 }
 .dropdown-menu{
-    width: 1000px;
+    width: 0px;
 }
