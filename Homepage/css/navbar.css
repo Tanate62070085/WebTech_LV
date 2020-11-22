@@ -7,11 +7,18 @@
     text-decoration: none;
     background-color: transparent !important;
 }
+.navbar{
+    margin-bottom: 0px;
+    min-height: auto;
+    height: 110px;
+}
 .menu1{        
     height:40px !important;
-    margin-left: 15px;
-    
-
+    margin-left: 15px;    
+}
+.nav-autoslide{
+    top: 0px;
+    transition: top 0.5s;
 }
 .link1{
     margin-top: -3.5px;
@@ -68,5 +75,6 @@ a:hover{
     
 }
 .dropdown-menu{
-    width: 0px;
+    width: 100vw;
+    height: 100vh;
 }
