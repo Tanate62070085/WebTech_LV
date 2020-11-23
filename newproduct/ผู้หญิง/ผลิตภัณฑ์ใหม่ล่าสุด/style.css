@@ -31,4 +31,24 @@ body{
       background-color:#f2f2f2;
       width: 403px;
   }
-  
+
+  .button4{
+    margin-top: 40px;
+    background-color: #ffffff; /* Green */
+    border: 0.5px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 240px;
+    height: 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.button4:hover{
+    background-color: rgb(233, 231, 231);
+    color: black;
+    border: none;
+}
