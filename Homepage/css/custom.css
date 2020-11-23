@@ -62,7 +62,14 @@ body{
     outline: none;
 
 }
-
+.btn-close{
+    width: 5vw;
+    height: 6vh;
+    text-align: center;
+    background-color: white;
+    padding-top: 1.5vh;
+    margin-left: 95vw;
+}
 .btn-link {
     text-align: center;
     margin-left: 33.5vw;
