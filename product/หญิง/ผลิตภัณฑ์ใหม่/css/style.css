@@ -4,10 +4,7 @@
     margin-left: 0rem;
     margin-right: 0rem;
     font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;}
-.clearfix:before,
-.clearfix:after{
-    display: grid
-}
+
 .boxdetail{
     margin-top: 0em;
     margin-left: 0em;
