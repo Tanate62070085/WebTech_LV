@@ -109,6 +109,7 @@ footer{
   width: 67.3vw;
   height: 10vh;
   border: solid #f6f5f3 0.3vh ;   
+  margin-left: -15px;
 }
 .box2{
   background-color: #ffffff;
