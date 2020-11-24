@@ -1,19 +1,17 @@
 //navigationbar autoslide
 var scroll_num=0;
-var scroll_num2=0;
 window.onscroll = function(){
-    // console.log(document.body.scrollTop - scroll_num);
-    console.log(document.documentElement.scrollTop - scroll_num2)
+    console.log(document.body.scrollTop - scroll_num);
     var state = document.body.scrollTop - scroll_num
-    var state_element = document.documentElement.scrollTop - scroll_num2
+    var state_element = document.documentElement.scrollTop - scroll_num
     if (state > 0 || state_element > 0){
         document.getElementById("lv-navigation").style.top = "-112px";
     }else if(document.body.scrollTop - scroll_num < 0){
         document.getElementById("lv-navigation").style.top = "0";
     }
     scroll_num = document.body.scrollTop;
-    scroll_num2 = document.documentElement.scrollTop;
-}
+};
+
 var scroll_bar = true;
 var value_before = -1;
 var all_menu = ["#newproduct","#women","#men"];
