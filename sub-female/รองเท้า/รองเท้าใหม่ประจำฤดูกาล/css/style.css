@@ -1,0 +1,86 @@
+@import url(//db.onlinewebfonts.com/c/64c0284f1ada1cf79ec484ac28eee170?family=Louis+Vuitton);
+.body{
+    margin: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    @font-face {font-family: "Louis Vuitton"; src: url("//db.onlinewebfonts.com/t/64c0284f1ada1cf79ec484ac28eee170.eot"); 
+        src: url("//db.onlinewebfonts.com/t/64c0284f1ada1cf79ec484ac28eee170.eot?#iefix") format("embedded-opentype"), 
+        url("//db.onlinewebfonts.com/t/64c0284f1ada1cf79ec484ac28eee170.woff2") format("woff2"), 
+        url("//db.onlinewebfonts.com/t/64c0284f1ada1cf79ec484ac28eee170.woff") format("woff"), 
+        url("//db.onlinewebfonts.com/t/64c0284f1ada1cf79ec484ac28eee170.ttf") format("truetype"), 
+        url("//db.onlinewebfonts.com/t/64c0284f1ada1cf79ec484ac28eee170.svg#Louis Vuitton") format("svg"); }}
+.clearfix:before,
+.clearfix:after{
+    display: grid
+}
+.boxdetail{
+    margin-top: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+    width: auto;
+    height: auto;
+    background: burlywood;
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.detail{
+    margin: 3rem;
+    padding: 0rem;
+}
+.list-group-item{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.button-buy{
+    width: 535px;
+    height: 50px;
+    background: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.button-location{
+    margin-left: 0px;
+    width: 5235px;
+    height: 50px;
+    background: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.button-more{
+    background: #ffffff;
+    border: 0px solid #ffffff;
+    text-decoration: underline;
+
+}
+.text-end{
+    margin: 0px auto; 
+    font-size: 16px; 
+    text-decoration: #000000;
+
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    -webkit-transition-duration: 1px; /* Safari */
+    transition-duration: 1px;
+    height: 65px;
+    width: 7%;
+
+}
+.button4 {
+    background-color: white;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
