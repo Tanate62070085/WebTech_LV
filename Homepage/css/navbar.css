@@ -89,9 +89,9 @@ a:hover{
 }
 .btn-close{
     width: 5vw;
-    height: 6vh;
+    height: 5vw;
     text-align: center;
     background-color: white;
-    padding-top: 1.5vh;
+    padding-top: 4vh;
     margin-left: 95vw;
 }
