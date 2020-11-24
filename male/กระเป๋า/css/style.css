@@ -6,10 +6,11 @@ body{
     font-weight: 300;
     color: inherit;
     color: #19110b;
-    font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;  
 }
 
-
+p{
+    font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
 .affix {
     top: 0;
     width: 100%;
