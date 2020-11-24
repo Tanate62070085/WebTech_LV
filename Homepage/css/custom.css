@@ -30,9 +30,10 @@ body{
     text-align: center;
     font-weight: 900;
     font-size: 200%;
+    padding: 1vw;
 }
 .head-col{
-    margin:0 1vw 0 1vw;
+    margin:0 3vw 0 3vw;
     font-size: 170%;
 }
 .menu-bar{
@@ -62,19 +63,11 @@ body{
     outline: none;
 
 }
-.btn-close{
-    width: 5vw;
-    height: 6vh;
-    text-align: center;
-    background-color: white;
-    padding-top: 1.5vh;
-    margin-left: 95vw;
-}
 .btn-link {
     text-align: center;
-    margin-left: 33.5vw;
+    margin-left: 30.5vw;
     background-color: rgb(0, 0, 0) !important;
-    padding: 1.25rem 5rem 1.25rem 5rem;
+    padding: 1rem 5rem 1rem 5rem;
     text-decoration-line: none;
     color: white !important;
     transition:color 0.5s, background-color 0.5s !important;
@@ -87,7 +80,7 @@ body{
     text-align: center;
     margin-left: 0.5vw;
     background-color: rgb(255, 255, 255) !important;
-    padding:1.25rem 5rem 1.25rem 5rem;
+    padding:1rem 5rem 1rem 5rem;
     text-decoration-line: none;
     color: rgb(0, 0, 0) !important;
     outline: rgb(0, 0, 0) solid 1px;
@@ -139,14 +132,14 @@ body{
     height: 80vh;
     right: 0;
 }
-.col-1{
+.col-1-r{
     outline:lightgray solid 1px;
     position: absolute;
     outline-offset: -1px;
     height: 50vh;
     width: 33.33%;
 }
-.col-2{
+.col-2-r{
     outline:lightgray solid 1px;
     position: absolute;
     outline-offset: -1px;
@@ -154,7 +147,7 @@ body{
     margin-left: 33.33%;
     width: 33.33%;
 }
-.col-3{
+.col-3-r{
     outline:lightgray solid 1px;
     position: absolute;
     right: 0;
