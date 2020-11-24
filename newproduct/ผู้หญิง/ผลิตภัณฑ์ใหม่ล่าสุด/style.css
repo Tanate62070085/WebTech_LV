@@ -92,3 +92,34 @@ footer{
   align-items: center;
   flex: 0 0 auto;
 }
+
+/*กล่องโง่*/
+.contanier{
+  margin-top: -10px;
+  font-size: 1.125rem;
+  letter-spacing: .025rem;
+  line-height: 2rem;
+  font-weight: 300;
+  color: inherit;
+  color: #19110b;
+  font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;  
+
+}
+.box1{  background-color: #ffffff;
+  width: 67.3vw;
+  height: 10vh;
+  border: solid #f6f5f3 0.3vh ;   
+}
+.box2{
+  background-color: #ffffff;
+  width: 65vw;
+  height: 10vh;
+  border: solid #f6f5f3 0.3vh ;
+}
+.box3{
+  background-color: #ffffff;
+  width: 65vw;
+  height: 10vh;
+  border: solid #f6f5f3 0.3vh ;
+}
+/*------------------*/
