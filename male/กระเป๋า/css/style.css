@@ -52,11 +52,11 @@ transition: 300ms;
 .imghover1:hover {
 background-image : url('http://image.free.in.th/v/2013/iv/201109092749.png'); /* ที่อยู่รูปภาพที่2 */
 }
-.responsive {
-    max-width: 470px;;
-    height: auto;
-  }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
 .con1{
     margin-left: 2%;
     
