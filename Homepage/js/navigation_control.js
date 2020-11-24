@@ -6,7 +6,7 @@ window.onscroll = function(){
     var state_element = document.documentElement.scrollTop - scroll_num
     if (state > 0 || state_element > 0){
         document.getElementById("lv-navigation").style.top = "-112px";
-    }else if(document.body.scrollTop - scroll_num < 0){
+    }else if(state < 0 || state_element < 0){
         document.getElementById("lv-navigation").style.top = "0";
     }
     scroll_num = document.body.scrollTop;
