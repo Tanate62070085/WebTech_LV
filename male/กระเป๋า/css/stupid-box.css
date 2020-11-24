@@ -7,6 +7,10 @@
     color: inherit;
     color: #19110b;
     font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;  
+    margin-top: 14vh;
+}
+label{
+    margin-left: -2.5vw;
 }
 .box1{
     width: 67.3vw;
