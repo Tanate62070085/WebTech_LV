@@ -1,17 +1,9 @@
-@import url(//db.onlinewebfonts.com/c/64c0284f1ada1cf79ec484ac28eee170?family=Louis+Vuitton);
+
 .body{
     margin: 0rem;
     margin-left: 0rem;
     margin-right: 0rem;
-    @font-face {font-family: "Louis Vuitton"; src: url("//db.onlinewebfonts.com/t/64c0284f1ada1cf79ec484ac28eee170.eot"); 
-        src: url("//db.onlinewebfonts.com/t/64c0284f1ada1cf79ec484ac28eee170.eot?#iefix") format("embedded-opentype"), 
-        url("//db.onlinewebfonts.com/t/64c0284f1ada1cf79ec484ac28eee170.woff2") format("woff2"), 
-        url("//db.onlinewebfonts.com/t/64c0284f1ada1cf79ec484ac28eee170.woff") format("woff"), 
-        url("//db.onlinewebfonts.com/t/64c0284f1ada1cf79ec484ac28eee170.ttf") format("truetype"), 
-        url("//db.onlinewebfonts.com/t/64c0284f1ada1cf79ec484ac28eee170.svg#Louis Vuitton") format("svg"); }}
-.clearfix:before,
-.clearfix:after{
-    display: grid
+    
 }
 .boxdetail{
     margin-top: 0em;
