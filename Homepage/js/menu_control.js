@@ -4,6 +4,14 @@ var menu_women = ["#w1","#w2","#w3","#w4","#w5","#w6","#w7","#w8","#w9","#w10","
 var main_menu_women = ["#w_m_1","#w_m_2","#w_m_3","#w_m_4","#w_m_5","#w_m_6","#w_m_7","#w_m_8","#w_m_9","#w_m_10","#w_m_11","#w_m_12","#w_m_13"]
 var menu_men = ["#m1","#m2","#m3","#m4","#m5","#m6","#m7","#m8","#m9","#m10","#m11","#m12"]
 var main_menu_men = ["#m_m_1","#m_m_2","#m_m_3","#m_m_4","#m_m_5","#m_m_6","#m_m_7","#m_m_8","#m_m_9","#m_m_10","#m_m_11","#m_m_12"]
+
+changemenu('#forwomen','#forwomen_1')
+$("#forwomen_1_line").animate({width : "96.5px"})
+changemenu2('#m1','#m_m_1')
+$("#m_m_1_line").animate({width : "157.17px"})
+changemenu1('#w1','#w_m_1')
+$("#w_m_1_line").animate({width : "161.5px"})
+
 function changemenu(menu,main_menu){
     menu_new.forEach(element => {
         if(element == menu){
@@ -95,9 +103,3 @@ function changemenu2(menu,main_menu){
     })
          
 }
-changemenu('#forwomen','#forwomen_1')
-$("#forwomen_1_line").animate({width : "96.5px"})
-changemenu2('#m1','#m_m_1')
-$("#m_m_1_line").animate({width : "157.17px"})
-changemenu1('#w1','#w_m_1')
-$("#w_m_1_line").animate({width : "161.5px"})
