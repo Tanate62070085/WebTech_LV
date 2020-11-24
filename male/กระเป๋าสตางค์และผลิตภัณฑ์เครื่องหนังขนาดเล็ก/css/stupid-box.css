@@ -1,0 +1,26 @@
+/*กล่องโง่*/
+.contanier{
+    font-size: 1.125rem;
+    letter-spacing: .025rem;
+    line-height: 2rem;
+    font-weight: 300;
+    color: inherit;
+    color: #19110b;
+    font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;  
+}
+.box1{
+    width: 67.3vw;
+    height: 10vh;
+    border: solid #f6f5f3 0.3vh ;   
+}
+.box2{
+    width: 65vw;
+    height: 10vh;
+    border: solid #f6f5f3 0.3vh ;
+}
+.box3{
+    width: 65vw;
+    height: 10vh;
+    border: solid #f6f5f3 0.3vh ;
+}
+/*------------------*/
