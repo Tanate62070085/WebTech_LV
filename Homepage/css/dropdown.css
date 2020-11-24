@@ -1,0 +1,75 @@
+.left{
+    float: left;
+    width: 30%;
+    height: 84.5vh;
+    
+  }
+.center-menu{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+.highlight{
+    border-bottom: 2px solid black;
+    font-weight: 800;
+}
+.center{
+    display: inline-block;
+    width: 32%;
+    background-color: rgb(246, 245, 243);
+    height: 84.5vh;
+    
+  }
+.right{
+    float: right;
+    width: 38%;
+    height: 84.5vh;
+    background-color: aliceblue;
+  }
+.container-fluid.drop{
+    margin-top: 1vh;
+    padding: 0px;
+    width: 100%;
+}
+.topic{
+    font-size: 16px;
+    color: black!important;
+    text-decoration: none;
+    transition: color 1s;
+}
+.wrap1{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    margin-left: 1vh;
+}
+.wrap2{
+    margin-bottom: 2vh;
+    margin-left: 1vh;
+}
+.wrap3{
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+    margin-left: 1vh;
+}
+.topic:hover{
+    text-decoration: underline;
+    color:gray!important;
+}
+.underline{
+    width: 0px;
+    height: 0.5px;
+    background-color: black;
+}
+.droppic{
+    position: absolute;
+    width: 38%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    outline: solid white 5px;
+    outline-offset: 0px;
+    transition:  outline-offset 0.5s;
+}
+.droppic:hover{
+    outline-offset: -5px;
+}
