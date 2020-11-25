@@ -15,20 +15,20 @@ body{
 .slide{
     position: relative;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     margin-top: 112px;
 }
 .slide-element{
     outline:lightgray solid 1px;
     outline-offset: -1px;
-    height: 70vh;
+    height: 80vh;
     background-color: white;
     position: absolute;
 }
 .head{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 200%;
     padding: 1vw;
 }
