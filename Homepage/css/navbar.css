@@ -19,24 +19,19 @@
     margin-left: 15px;
     width: fit-content;
     padding: 10px;
+    margin-top: -3.5px !important;
 }
 .nav-autoslide{
     top: 0px;
     transition: top 0.5s;
 }
-.link1{
-    margin-top: -3.5px;
-}
+
 .container-fluid.menutop2{ 
     border-bottom: 2px solid rgb(246, 245, 243); 
     height:72px !important;
     background-color: white;
 }
 
-a.navbar-brand, .link2{
-    height: 72px;
-    margin-top: 11.5px;
-}
 input{
     margin-top: 11.5px;
     margin-right: 47px;
@@ -78,11 +73,11 @@ a:hover{
 
 .inline{
     display: inline-block;
-    margin-top: 28px;
     height: 44px;
-    margin-right: 31px
+    margin-right: 31px;
     
 }
+
 .dropdown-menu{
     width: 100vw;
     height: 100vh;
