@@ -38,7 +38,7 @@ display: block;
 width: 402px;
 height: 400px;
 background: url('http://image.free.in.th/v/2013/ie/201109092708.png'); /* ที่อยู่รูปภาพที่1 */
-transition: 0.3s; 
+transition: 300ms; 
 }
 .imghover1:hover {
 background-image : url('http://image.free.in.th/v/2013/iv/201109092749.png'); /* ที่อยู่รูปภาพที่2 */
@@ -48,24 +48,24 @@ background-image : url('http://image.free.in.th/v/2013/iv/201109092749.png'); /*
 }
 .con2{
     margin-left: 18px;
-    margin-top: 0px;
+    margin-top: 80px;
 }
 .con3{
-    margin-top:20px;
+    margin-top:60px;
     margin-left: 18px;
 }
 .con4{
     
     margin-left: 16px;
-    margin-top: 0px;
+    margin-top: 40px;
 }
 .con5{
     margin-left: 16px;
-    margin-top: 0px;
+    margin-top: px;
 }
 .con6{
     margin-left: 16px;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 .button4{
     margin-top: 40px;
@@ -87,6 +87,7 @@ background-image : url('http://image.free.in.th/v/2013/iv/201109092749.png'); /*
     color: black;
     border: none;
 }
+
 .opacityimg1{
     opacity:1.0; 
     filter:alpha(opacity=100);
