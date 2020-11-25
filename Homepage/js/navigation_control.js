@@ -19,10 +19,10 @@ function closedrop(){
     $(".dropdown-menu").slideToggle(300,function(){
         if(scroll_bar){
             scroll_bar = false
-            $("body").css("overflow","hidden")
+            $("body").css("overflow-y","hidden")
         }else{
             scroll_bar = true
-            $("body").css("overflow","scroll")
+            $("body").css("overflow-y","scroll")
         }})
 }
 
@@ -34,20 +34,20 @@ function clickDrop(number,first_menu){
     $(".dropdown-menu").slideToggle(300,function(){
         if(scroll_bar){
             scroll_bar = false
-            $("body").css("overflow","hidden")
+            $("body").css("overflow-y","hidden")
         }else{
             scroll_bar = true
-            $("body").css("overflow","scroll")
+            $("body").css("overflow-y","scroll")
         }
     })}else{
         if(scroll_bar){
             $(".dropdown-menu").slideToggle(300,function(){
                 if(scroll_bar){
                     scroll_bar = false
-                    $("body").css("overflow","hidden")
+                    $("body").css("overflow-y","hidden")
                 }else{
                     scroll_bar = true
-                    $("body").css("overflow","scroll")
+                    $("body").css("overflow-y","scroll")
                 }
         })}
         all_menu.forEach(element => {
