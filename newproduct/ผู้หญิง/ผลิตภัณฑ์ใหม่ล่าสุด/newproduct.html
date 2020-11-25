@@ -9,14 +9,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <!-- for navigationbar -->
-    <script src="http://10.0.15.12/projects/pg55xup/js/menu_control.js"></script>
-    <script src="http://10.0.15.12/projects/pg55xup/js/navigation_control.js"></script>
+    <script src="http://10.0.15.12/projects/pg55xup/Homepage/js/menu_control.js"></script>
+    <script src="http://10.0.15.12/projects/pg55xup/Homepage/js/navigation_control.js"></script>
     <script src="https://kit.fontawesome.com/9a0a5db884.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="http://10.0.15.12/projects/pg55xup/css/dropdown.css">
-    <link rel="stylesheet" href="http://10.0.15.12/projects/pg55xup/css/footer.css">
-    <link rel="stylesheet" href="http://10.0.15.12/projects/pg55xup/css/navbar.css">
+    <link rel="stylesheet" href="http://10.0.15.12/projects/pg55xup/Homepage/css/dropdown.css">
+    <link rel="stylesheet" href="http://10.0.15.12/projects/pg55xup/Homepage/css/footer.css">
+    <link rel="stylesheet" href="http://10.0.15.12/projects/pg55xup/Homepage/css/navbar.css">
+    <link rel="stylesheet" href="http://10.0.15.12/projects/pg55xup/Homepage/css/stupid-box.css">
     <!-- for navigationbar -->
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,15 +27,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body style="overflow-x: hidden; overflow-y:inherit;">
-<<<<<<< HEAD
-<!---nav ของหน้าเพจ-->
-
-=======
      <!-- navigationbar -->
      <nav class="navbar fixed-top nav-autoslide" id="lv-navigation">
         <div class="container-fluid menutop1">
             <ul class="nav navbar-nav box">
-            <li class="menu1" style="margin-top: -3.5px;"><a class="link1" style="font-size : 1rem;" href="#"><img src="http://10.0.15.12/projects/pg55xup/assets/img/th.svg" style="margin-top: -2.5px; width: 16px;">&nbsp;</img>จัดส่งไปที่: ประเทศไทย</a></li>
+            <li class="menu1" style="margin-top: -3.5px;"><a class="link1" style="font-size : 1rem;" href="#"><img src="http://10.0.15.12/projects/pg55xup/Homepage/assets/img/th.svg" style="margin-top: -2.5px; width: 16px;">&nbsp;</img>จัดส่งไปที่: ประเทศไทย</a></li>
             <li class="menu1" style="margin-top: -3.5px;">   
               <a class="link1" style="font-size: 1rem;" href="#"><i class="far fa-question-circle">&nbsp;</i>ต้องการความช่วยเหลือใช่ไหม</a></li>
             <li class="menu1 phone" style="margin-top: -3.5px;">        
@@ -50,7 +49,7 @@
       <!---------------------------------------------------------------->
         <div class="container-fluid menutop2">
           <div class="navbar-header ">
-            <a href="#">
+            <a href="/projects/pg55xup/Homepage/index.html">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150" width="184" height="50" preserveAspectRatio="xMinYMid">
               <path d="M428.858.793h-5.451l-.793.892V27.85L394.764 0l-.794.793v42.222l.793.793h5.452l.892-.793V16.453l27.355 
               27.355h1.288V1.685zm-137.568.892v6.343h7.136v35.78h7.137V8.027h6.343l.892-.892V.793h-20.715zm26.265 0v6.343h7.136v35.78h7.136V8.027h6.343l.793
@@ -71,9 +70,9 @@
             <!--<a class="navbar-brand">LOUIS VITTON</a>--->
           </div>
           <div class="nav navbar-nav navbar-left">
-            <div class="inline dropdown" style="margin-top: 10px !important;"><a class="link2" value="1" href="#" onclick="clickDrop(1,'#newproduct');  openedrun();">ผลิตภัณฑ์ใหม่</a></div>
-            <div class="inline dropdown" style="margin-top: 10px !important;"><a class="link2" value="2" href="#" onclick="clickDrop(2,'#women');  openedrun();">ผู้หญิง</a></div>
-            <div class="inline dropdown" style="margin-top: 10px !important;"><a class="link2" value="3" href="#" onclick="clickDrop(3,'#men');  openedrun();">ผู้ชาย</a></div>
+            <div class="inline dropdown" style="margin-top: 10px !important;"><a class="link2" value="1" href="#" onclick="clickDrop(1,'#newproduct');  openedrun(1);">ผลิตภัณฑ์ใหม่</a></div>
+            <div class="inline dropdown" style="margin-top: 10px !important;"><a class="link2" value="2" href="#" onclick="clickDrop(2,'#women');  openedrun(2);">ผู้หญิง</a></div>
+            <div class="inline dropdown" style="margin-top: 10px !important;"><a class="link2" value="3" href="#" onclick="clickDrop(3,'#men');  openedrun(3);">ผู้ชาย</a></div>
             <div class="inline dropdown" style="margin-top: 10px !important;"><a class="link2" href="#">ศิลปะการใช้ชีวิต</a></div>
             <div class="inline dropdown" style="margin-top: 10px !important;"><a class="link2" href="#"><b>MAGAZINE</b></a></div>
           </div>
@@ -101,23 +100,23 @@
                                 </div>
                                 <div class="center">
                                 <ul style="list-style-type:none; visibility: visible; opacity: 1;" class="center-menu" id="formen">
-                                    <li class="wrap2"><a class="topic" href="/newproduct/ผู้ชาย/ผลิตภัณฑ์ใหม่ล่าสุด/newproductmen.html">ผลิตภัณฑ์ใหม่ล่าสุด</a></li>
+                                    <li class="wrap2"><a class="topic" href="/projects/pg55xup/Homepage/newproduct/ผู้ชาย/ผลิตภัณฑ์ใหม่ล่าสุด/newproductmen.html">ผลิตภัณฑ์ใหม่ล่าสุด</a></li>
                                     <li class="wrap2"><a class="topic" href="#">LVxNBA I</a></li>
-                                    <li class="wrap2"><a class="topic" href="/newproduct/ผู้ชาย/พรีคอลเล็คชั่น Spring-Summer 2021/springsummer.html">พรีคอลเล็คชั่น Spring-Summer 2021</a></li>
-                                    <li class="wrap2"><a class="topic" href="/newproduct/ผู้ชาย/Damier Graphite Giant/DamierGraphiteGiant.html">Damier Graphite Giant</a></li>
-                                    <li class="wrap2"><a class="topic" href="/newproduct/ผู้ชาย/คอลเล็คชั่น LV²/LV².html">คอลเล็คชั่น LV²</a></li>
-                                    <li class="wrap2"><a class="topic" href="/newproduct/ผู้ชาย/Monogram Eclipse Reverse/monogram.html">Monogram Eclipse Reverse</a></li>
+                                    <li class="wrap2"><a class="topic" href="/projects/pg55xup/Homepage/newproduct/ผู้ชาย/พรีคอลเล็คชั่น Spring-Summer 2021/springsummer.html">พรีคอลเล็คชั่น Spring-Summer 2021</a></li>
+                                    <li class="wrap2"><a class="topic" href="/projects/pg55xup/Homepage/newproduct/ผู้ชาย/Damier Graphite Giant/DamierGraphiteGiant.html">Damier Graphite Giant</a></li>
+                                    <li class="wrap2"><a class="topic" href="/projects/pg55xup/Homepage/newproduct/ผู้ชาย/คอลเล็คชั่น LV²/LV².html">คอลเล็คชั่น LV²</a></li>
+                                    <li class="wrap2"><a class="topic" href="/projects/pg55xup/Homepage/newproduct/ผู้ชาย/Monogram Eclipse Reverse/monogram.html">Monogram Eclipse Reverse</a></li>
                                 </ul>
                                 <ul style="list-style-type:none;" class="center-menu" id="forwomen">
-                                    <li class="wrap2"><a class="topic" href="/newproduct/ผู้หญิง/ผลิตภัณฑ์ใหม่ล่าสุด/newproduct.html">ผลิตภัณฑ์ใหม่ล่าสุด</a></li>
-                                    <li class="wrap2"><a class="topic" href="/newproduct/ผู้หญิง/คอลเล็คชั่น game on/newproductgameon.html">คอลเล็คชั่น Game On</a></li>
-                                    <li class="wrap2"><a class="topic" href="/newproduct/ผู้หญิง/คอลเล็คชั่น Since 1854/since 1854.html">คอลเล็คชั่น Since 1854</a></li>
-                                    <li class="wrap2"><a class="topic" href="/newproduct/ผู้หญิง/คอลเล็คชั่น LV Crafty/newproductLVcrafty.html">คอลเล็คชั่น LV Crafty</a></li>
+                                    <li class="wrap2"><a class="topic" href="/projects/pg55xup/Homepage/newproduct/ผู้หญิง/ผลิตภัณฑ์ใหม่ล่าสุด/newproduct.html">ผลิตภัณฑ์ใหม่ล่าสุด</a></li>
+                                    <li class="wrap2"><a class="topic" href="/projects/pg55xup/Homepage/newproduct/ผู้หญิง/คอลเล็คชั่น game on/newproductgameon.html">คอลเล็คชั่น Game On</a></li>
+                                    <li class="wrap2"><a class="topic" href="/projects/pg55xup/Homepage/newproduct/ผู้หญิง/คอลเล็คชั่น Since 1854/since 1854.html">คอลเล็คชั่น Since 1854</a></li>
+                                    <li class="wrap2"><a class="topic" href="/projects/pg55xup/Homepage/newproduct/ผู้หญิง/คอลเล็คชั่น LV Crafty/newproductLVcrafty.html">คอลเล็คชั่น LV Crafty</a></li>
                                 </ul>
                                 </div>
                                 <div class="right">
-                                    <img class="droppic" style="visibility: visible; opacity: 1;" id="forwomen_pic" src="/dropdown_inner/pic/new_product/ผลิตภัณฑ์ใหม่-ผู้หญิง.webp">
-                                    <img class="droppic" id="formen_pic" src="/dropdown_inner/pic/new_product/ผลิตภัณฑ์ใหม่-ผู้ชาย.webp">
+                                    <img class="droppic" style="visibility: visible; opacity: 1;" id="forwomen_pic" src="/projects/pg55xup/Homepage/assets/pic/new_product/ผลิตภัณฑ์ใหม่-ผู้หญิง.webp">
+                                    <img class="droppic" id="formen_pic" src="/projects/pg55xup/Homepage/assets/pic/new_product/ผลิตภัณฑ์ใหม่-ผู้ชาย.webp">
                                 </div>
                             </div>
                             <!-- end newproduct-->
@@ -143,18 +142,18 @@
                         </div>
                         <div class="center">
                           <ul style="list-style-type:none; visibility: visible; opacity: 1;" class="center-menu" id="w1">
-                            <li class="wrap2"><a class="topic" href="/ผู้หญิง/ของขวัญถึงผู้หญิง/ของขวัญที่สร้างแรงบันดาลใจ/inspiration.html">ของขวัญที่สร้างแรงบันดาลใจ</a></li>
-                            <li class="wrap2"><a class="topic" href="/ผู้หญิง/ของขวัญถึงผู้หญิง/ผลิตภัณฑ์ที่ได้รับความนิยม/popularwomen.html">ผลิตภัณฑ์ที่ได้รับความนิยม</a></li>
-                            <li class="wrap2"><a class="topic" href="/ผู้หญิง/ของขวัญถึงผู้หญิง/สร้างสรรค์ผลงานในแบบของคุณ/yourown.html">สร้างสรรค์ผลงานในแบบของคุณ</a></li>
+                            <li class="wrap2"><a class="topic" href="#">ของขวัญที่สร้างแรงบันดาลใจ</a></li>
+                            <li class="wrap2"><a class="topic" href="#">ผลิตภัณฑ์ที่ได้รับความนิยม</a></li>
+                            <li class="wrap2"><a class="topic" href="#">สร้างสรรค์ผลงานในแบบของคุณ</a></li>
                           </ul>
                           <ul style="list-style-type:none;" class="center-menu" id="w2">
                             <li class="wrap2"><a class="topic" href="#">ซีเล็คชั่นสำหรับเทศกาลวันหยุด</a></li>
-                            <li class="wrap2"><a class="topic" href="/ผู้หญิง/ไฮไลท์/คอลเล็คชั่น game on/newproductgameon.html">คอลเล็คชั่น Game On</a></li>
-                            <li class="wrap2"><a class="topic" href="/ผู้หญิง/ไฮไลท์/คอลเล็คชั่น Since 1854/since 1854.html">คอลเล็คชั่น Since 1854</a></li>
-                            <li class="wrap2"><a class="topic" href="/ผู้หญิง/ไฮไลท์/คอลเล็คชั่น LV Crafty/newproductLVcrafty.html">คอลเล็คชั่น LV Crafty</a></li>
+                            <li class="wrap2"><a class="topic" href="">คอลเล็คชั่น Game On</a></li>
+                            <li class="wrap2"><a class="topic" href="">คอลเล็คชั่น Since 1854</a></li>
+                            <li class="wrap2"><a class="topic" href="">คอลเล็คชั่น LV Crafty</a></li>
                           </ul>
                           <ul style="list-style-type:none;" class="center-menu" id="w3">
-                            <li class="wrap2"><a class="topic" href="/ผู้หญิง/กระเป๋าถือ/กระเป๋า Monogram แคนวาส/monogarmcanvas.html">กระเป๋า Monogram แคนวาส</a></li>
+                            <li class="wrap2"><a class="topic" href="">กระเป๋า Monogram แคนวาส</a></li>
                             <li class="wrap2"><a class="topic" href="#">กระเป๋ารุ่น Capucines</a></li>
                             <li class="wrap2"><a class="topic" href="#">กระเป๋ารุ่น กระเป๋ารุ่น Twist</a></li>
                             <li class="wrap2"><a class="topic" href="#">กระเป๋ารุ่น Petite Malle</a></li>
@@ -300,18 +299,18 @@
                         </div>
                         <div class="right">
                             
-                            <a href="#"> <img class="droppic" style="visibility: visible; opacity: 1;" id="w1_pic" src="/dropdown_inner/pic/woman/Women_Gift_Inspiration_Sept2019_PDT.webp"></a>
-                            <a href="#"> <img class="droppic" id="w2_pic" src="/dropdown_inner/pic/woman/woman_highlight.webp"></a>
-                            <a href="#"> <img class="droppic" id="w3_pic" src="/dropdown_inner/pic/woman/woman_back_carryon.webp"></a>
-                            <a href="#"> <img class="droppic" id="w4_pic" src="/dropdown_inner/pic/woman/woman_pocket.webp"></a>
-                            <a href="#"> <img class="droppic" id="w5_pic" src="/dropdown_inner/pic/woman/woman_travel.webp"></a>
-                            <a href="#"> <img class="droppic" id="w6_pic" src="/dropdown_inner/pic/woman/woman_assetserry.webp"></a>
-                            <a href="#"> <img class="droppic" id="w7_pic" src="/dropdown_inner/pic/woman/woman_dressing.webp"></a>
-                            <a href="#"> <img class="droppic" id="w8_pic" src="/dropdown_inner/pic/woman/woman_shoes.webp"></a>
-                            <a href="#"> <img class="droppic" id="w9_pic" src="/dropdown_inner/pic/woman/woman_perfume.webp"></a>
-                            <a href="#"> <img class="droppic" id="w10_pic" src="/dropdown_inner/pic/woman/woman_watches.webp"></a>
-                            <a href="#"> <img class="droppic" id="w11_pic" src="/dropdown_inner/pic/woman/woman_creative.webp"></a>
-                            <a href="#"> <img class="droppic" id="w12_pic" src="/dropdown_inner/pic/woman/woman_fashion.webp"></a>
+                            <a href="#"> <img class="droppic" style="visibility: visible; opacity: 1;" id="w1_pic" src="/projects/pg55xup/Homepage/assets/pic/woman/Women_Gift_Inspiration_Sept2019_PDT.webp"></a>
+                            <a href="#"> <img class="droppic" id="w2_pic" src="/projects/pg55xup/Homepage/assets/pic/woman/woman_highlight.webp"></a>
+                            <a href="#"> <img class="droppic" id="w3_pic" src="/projects/pg55xup/Homepage/assets/pic/woman/woman_back_carryon.webp"></a>
+                            <a href="#"> <img class="droppic" id="w4_pic" src="/projects/pg55xup/Homepage/assets/pic/woman/woman_pocket.webp"></a>
+                            <a href="#"> <img class="droppic" id="w5_pic" src="/projects/pg55xup/Homepage/assets/pic/woman/woman_travel.webp"></a>
+                            <a href="#"> <img class="droppic" id="w6_pic" src="/projects/pg55xup/Homepage/assets/pic/woman/woman_assetserry.webp"></a>
+                            <a href="#"> <img class="droppic" id="w7_pic" src="/projects/pg55xup/Homepage/assets/pic/woman/woman_dressing.webp"></a>
+                            <a href="#"> <img class="droppic" id="w8_pic" src="/projects/pg55xup/Homepage/assets/pic/woman/woman_shoes.webp"></a>
+                            <a href="#"> <img class="droppic" id="w9_pic" src="/projects/pg55xup/Homepage/assets/pic/woman/woman_perfume.webp"></a>
+                            <a href="#"> <img class="droppic" id="w10_pic" src="/projects/pg55xup/Homepage/assets/pic/woman/woman_watches.webp"></a>
+                            <a href="#"> <img class="droppic" id="w11_pic" src="/projects/pg55xup/Homepage/assets/pic/woman/woman_creative.webp"></a>
+                            <a href="#"> <img class="droppic" id="w12_pic" src="/projects/pg55xup/Homepage/assets/pic/woman/woman_fashion.webp"></a>
                             <a onclick="">X</a>
                         </div>
                       </div>
@@ -336,17 +335,17 @@
                 </div>
                     <div class="center">
                         <ul style="list-style-type:none; visibility: visible; opacity: 1;" class="center-menu" id="m1">
-                        <li class="wrap2"><a class="topic" href="/male/ของขวัญสำหรับผู้ชาย/ของขวัญที่สร้างแรงบันดาลใจ/seraction_for_male.html">ของขวัญที่สร้างแรงบันดาลใจ</a></li>
-                        <li class="wrap2"><a class="topic" href="/male/ของขวัญสำหรับผู้ชาย/ผลิตภัณฑ์ที่ได้รับความนิยม/the-essentials.html">ผลิตภัณฑ์ที่ได้รับความนิยม</a></li>
-                        <li class="wrap2"><a class="topic" href="/male/ของขวัญสำหรับผู้ชาย/สร้างสรรค์ผลงานในแบบของคุณ/personalization.html">สร้างสรรค์ผลงานในแบบของคุณ</a></li>
+                        <li class="wrap2"><a class="topic" href="">ของขวัญที่สร้างแรงบันดาลใจ</a></li>
+                        <li class="wrap2"><a class="topic" href="">ผลิตภัณฑ์ที่ได้รับความนิยม</a></li>
+                        <li class="wrap2"><a class="topic" href="">สร้างสรรค์ผลงานในแบบของคุณ</a></li>
                         </ul>
                         <ul style="list-style-type:none;" class="center-menu" id="m2">
                             <li class="wrap2"><a class="topic" href="#">ซีเล็คชั่นสำหรับเทศกาลวันหยุด</a></li>
                             <li class="wrap2"><a class="topic" href="#">LVxNBA I</a></li>
-                            <li class="wrap2"><a class="topic" href="/newproduct/ผู้ชาย/พรีคอลเล็คชั่น Spring-Summer 2021/springsummer.html">พรีคอลเล็คชั่น Spring-Summer 2021</a></li>
-                            <li class="wrap2"><a class="topic" href="/newproduct/ผู้ชาย/Damier Graphite Giant/DamierGraphiteGiant.html">Damier Graphite Giant</a></li>
-                            <li class="wrap2"><a class="topic" href="/newproduct/ผู้ชาย/คอลเล็คชั่น LV²/LV².html">คอลเล็คชั่น LV²</a></li>
-                            <li class="wrap2"><a class="topic" href="/newproduct/ผู้ชาย/Monogram Eclipse Reverse/monogram.html">Monogram Eclipse Reverse</a></li>
+                            <li class="wrap2"><a class="topic" href="">พรีคอลเล็คชั่น Spring-Summer 2021</a></li>
+                            <li class="wrap2"><a class="topic" href="">Damier Graphite Giant</a></li>
+                            <li class="wrap2"><a class="topic" href="">คอลเล็คชั่น LV²</a></li>
+                            <li class="wrap2"><a class="topic" href="">Monogram Eclipse Reverse</a></li>
                         </ul>
                         <ul style="list-style-type:none;" class="center-menu" id="m3">
                             <ul style="list-style-type:none;">
@@ -483,18 +482,18 @@
                         </ul>
                 </div>
                     <div class="right">
-                        <img class="droppic" style="visibility: visible; opacity: 1;" id="m1_pic" src="/dropdown_inner/pic/men/men_foe_menAnd_highlight.webp">
-                        <img class="droppic" id="m2_pic" src="/dropdown_inner/pic/men/men_foe_menAnd_highlight.webp">
-                        <img class="droppic" id="m3_pic" src="/dropdown_inner/pic/men/men_bag.webp">
-                        <img class="droppic" id="m4_pic" src="/dropdown_inner/pic/men/men_pocket.webp">
-                        <img class="droppic" id="m5_pic" src="/dropdown_inner/pic/men/men_travel.webp">
-                        <img class="droppic" id="m6_pic" src="/dropdown_inner/pic/men/men_assetserry.webp">
-                        <img class="droppic" id="m7_pic" src="/dropdown_inner/pic/men/men_shoes.webp">
-                        <img class="droppic" id="m8_pic" src="/dropdown_inner/pic/men/men_dressing.webp">
-                        <img class="droppic" id="m9_pic" src="/dropdown_inner/pic/men/men_perfume.jpg">
-                        <img class="droppic" id="m10_pic" src="/dropdown_inner/pic/men/men_watches.jpg">
-                        <img class="droppic" id="m11_pic" src="/dropdown_inner/pic/men/men_creative.webp">
-                        <img class="droppic" id="m12_pic" src="/dropdown_inner/pic/men/men_fashionShow.webp">
+                        <img class="droppic" style="visibility: visible; opacity: 1;" id="m1_pic" src="/projects/pg55xup/Homepage/assets/pic/men/men_foe_menAnd_highlight.webp">
+                        <img class="droppic" id="m2_pic" src="/projects/pg55xup/Homepage/assets/pic/men/men_foe_menAnd_highlight.webp">
+                        <img class="droppic" id="m3_pic" src="/projects/pg55xup/Homepage/assets/pic/men/men_bag.webp">
+                        <img class="droppic" id="m4_pic" src="/projects/pg55xup/Homepage/assets/pic/men/men_pocket.webp">
+                        <img class="droppic" id="m5_pic" src="/projects/pg55xup/Homepage/assets/pic/men/men_travel.webp">
+                        <img class="droppic" id="m6_pic" src="/projects/pg55xup/Homepage/assets/pic/men/men_assetserry.webp">
+                        <img class="droppic" id="m7_pic" src="/projects/pg55xup/Homepage/assets/pic/men/men_shoes.webp">
+                        <img class="droppic" id="m8_pic" src="/projects/pg55xup/Homepage/assets/pic/men/men_dressing.webp">
+                        <img class="droppic" id="m9_pic" src="/projects/pg55xup/Homepage/assets/pic/men/men_perfume.jpg">
+                        <img class="droppic" id="m10_pic" src="/projects/pg55xup/Homepage/assets/pic/men/men_watches.jpg">
+                        <img class="droppic" id="m11_pic" src="/projects/pg55xup/Homepage/assets/pic/men/men_creative.webp">
+                        <img class="droppic" id="m12_pic" src="/projects/pg55xup/Homepage/assets/pic/men/men_fashionShow.webp">
                     </div>
                 </div>
                 
@@ -529,14 +528,13 @@
    
 </nav>
       <!-- navigationbar -->
->>>>>>> 8fc6b8ce04c65ed19b25053ffbafe28f55024752
  
 <!-----แถวที่1----->
 <!--รูปที่1-->
 <div class="con" style="margin-top: 200px;">
 <div class="row">
     <div class="col-4">
-    <a href="" style="text-decoration: none;">
+    <a href="\product\หญิง\colle-game on\PANAME.html" style="text-decoration: none;">
         <div class="card1">
             <img class="lv-smart-picture__object" src="https://th.louisvuitton.com/images/is/image/lv/1/P…-set--M57450_PM2_Front%20view.png?wid=456&hei=456">
             <div class="col-12">
@@ -548,7 +546,7 @@
     </div>
 <!--รูปที่2-->
     <div class="col-4">
-        <a href="" style="text-decoration: none;">
+        <a href="\product\หญิง\ผลิตภัณฑ์ใหม่\neverfull-MM-white.html" style="text-decoration: none;">
             <div class="card2">
                 <img class="lv-smart-picture__object" src="https://th.louisvuitton.com/images/is/image/lv/1/P…ll-mm--M57462_PM1_Back%20view.png?wid=456&hei=456">
                 <div class="row" style=" margin-left: 2px; height: 48px;">
@@ -564,7 +562,7 @@
     </div>
 <!--รูปที่3-->
     <div class="col-4">
-        <a href="" style="text-decoration: none;">
+        <a href="\product\หญิง\ผลิตภัณฑ์ใหม่\neverfull-MM-brownn.html" style="text-decoration: none;">
             <div class="card3">
                 <img class="lv-smart-picture__object" src="https://th.louisvuitton.com/images/is/image/lv/1/P…ll-mm--M57452_PM1_Side%20view.png?wid=456&hei=456">
                 <div class="col-12">
@@ -579,7 +577,7 @@
 <!--รูปที่1-->
 <div class="row" style="margin-top: 155px;">
     <div class="col-4">
-    <a href="" style="text-decoration: none;">
+    <a href="\product\หญิง\ผลิตภัณฑ์ใหม่\WYNWOOD-silver.html" style="text-decoration: none;">
         <div class="card1">
             <img class="lv-smart-picture__object" src="https://th.louisvuitton.com/images/is/image/lv/1/P…nwood--M90566_PM1_Back%20view.png?wid=456&hei=456">
             <div class="col-12">
@@ -591,7 +589,7 @@
     </div>
 <!--รูปที่2---->
     <div class="col-4">
-        <a href="" style="text-decoration: none;">
+        <a href="\product\หญิง\ผลิตภัณฑ์ใหม่\spring-street.html" style="text-decoration: none;">
             <div class="card2">
                 <img class="lv-smart-picture__object" src="https://th.louisvuitton.com/images/is/image/lv/1/P…treet--M90568_PM1_Back%20view.png?wid=456&hei=456">
                 <div class="row" style=" margin-left: 2px;">
@@ -606,7 +604,7 @@
     </div>
 <!--รูปที่3-->
     <div class="col-4">
-        <a href="" style="text-decoration: none;">
+        <a href="\product\หญิง\ผลิตภัณฑ์ใหม่\zippy-silver.html" style="text-decoration: none;">
             <div class="card3">
                 <img class="lv-smart-picture__object" src="https://th.louisvuitton.com/images/is/image/lv/1/P…zippy--M69795_PM1_Side%20view.png?wid=456&hei=456">
                 <div class="col-12">
@@ -621,7 +619,7 @@
 <!--รูปที่1-->
 <div class="row" style="margin-top: 155px;">
     <div class="col-4">
-    <a href="" style="text-decoration: none;">
+    <a href="\product\หญิง\ผลิตภัณฑ์ใหม่\FÉLICIE-POCHETTE.html" style="text-decoration: none;">
         <div class="card1">
             <img class="lv-smart-picture__object" src="https://th.louisvuitton.com/images/is/image/lv/1/P…ette--M69793_PM2_Front%20view.png?wid=456&hei=456">
             <div class="col-12">
@@ -633,7 +631,7 @@
     </div>
 <!--รูปที่2-->
     <div class="col-4">
-        <a href="" style="text-decoration: none;">
+        <a href="\product\หญิง\ผลิตภัณฑ์ใหม่\ALMA-BB.html" style="text-decoration: none;">
             <div class="card2">
                 <img class="lv-smart-picture__object" src="https://th.louisvuitton.com/images/is/image/lv/1/P…a-bb--M90583_PM2_Front%20view.png?wid=456&hei=456">
                 <div class="row" style=" margin-left: 2px;">
@@ -648,7 +646,7 @@
     </div>
 <!--รูปที่3-->
     <div class="col-4">
-        <a href="" style="text-decoration: none;">
+        <a href="\product\หญิง\ผลิตภัณฑ์ใหม่\PETT-SAC-PLAT.html" style="text-decoration: none;">
             <div class="card3">
                 <img class="lv-smart-picture__object" src="https://th.louisvuitton.com/images/is/image/lv/1/P…plat--M90564_PM2_Front%20view.png?wid=456&hei=456">
                 <div class="col-12">
@@ -678,7 +676,7 @@
     </div>
 <!--รูปที่2-->
     <div class="col-4">
-        <a href="" style="text-decoration: none;">
+        <a href="\product\หญิง\ผลิตภัณฑ์ใหม่\bella-galet.html" style="text-decoration: none;">
             <div class="card2">
                 <img class="lv-smart-picture__object" src="https://th.louisvuitton.com/images/is/image/lv/1/P…ella--M57201_PM2_Front%20view.png?wid=320&hei=320">
                 <div class="row" style=" margin-left: 2px;">
@@ -693,7 +691,7 @@
     </div>
 <!--รูปที่3-->
     <div class="col-4">
-        <a href="" style="text-decoration: none;">
+        <a href="\product\หญิง\ผลิตภัณฑ์ใหม่\bella-black.html" style="text-decoration: none;">
             <div class="card3">
                 <img class="lv-smart-picture__object" src="https://th.louisvuitton.com/images/is/image/lv/1/P…ella--M57070_PM2_Front%20view.png?wid=320&hei=320">
                 <div class="row" style=" margin-left: 2px;">
