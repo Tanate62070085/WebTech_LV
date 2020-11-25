@@ -94,3 +94,14 @@ footer{
   flex: 0 0 auto;
 }
 
+
+.opacityimg1{
+  opacity:1.0; 
+  filter:alpha(opacity=100);
+  transition: 0.4s;
+}
+.opacityimg1:hover
+{
+opacity: 0;
+filter:alpha(opacity=100);
+}
