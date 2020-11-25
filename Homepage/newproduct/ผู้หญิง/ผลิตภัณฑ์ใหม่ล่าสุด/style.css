@@ -1,0 +1,95 @@
+@import url(//db.onlinewebfonts.com/c/35e5d1a7aa6da471de4cfb4a47ebaca8?family=Futura+Std+Book);
+body{
+    font-family:"Futura Std Book"; src: url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.eot"); src: url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.woff") format("woff"), url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.svg#Futura Std Book") format("svg");
+}
+.card1 {
+    
+    width: 403px;
+    height: 327.27px;
+    text-align: left;
+    margin-left: 46px;
+}
+.card2{
+    width: 400px;
+  height: 327.27px;
+  text-align: left;
+  margin-left: 10px;
+
+}
+.card3{
+    width: 403px;
+    height: 327.27px;
+    text-align: left;
+    margin-left: -26px;
+  
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  .lv-smart-picture__object{
+      background-color:#f2f2f2;
+      width: 403px;
+  }
+
+  .button4{
+    margin-top: 40px;
+    background-color: #ffffff; /* Green */
+    border: 0.5px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 240px;
+    height: 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.button4:hover{
+    background-color: rgb(233, 231, 231);
+    color: black;
+    border: none;
+}
+footer{
+  max-width: 100%;
+  background-color:#19110b;
+  height: 25vh;
+  padding: 0 5vw 0 5vw;
+  font-weight: 400;
+  color: #fff;
+}
+.logo{
+  /* padding-top: 4vh; */
+  padding-bottom: 4vh;
+  border-bottom: 1px solid #392d23;
+}
+.flag-logo{
+  margin: 0px 0px 0px 0px !important;
+}
+.lv-logo{
+  width: 10vw;
+  margin: 3vh 0px 0px 0px !important;
+
+}
+.link-footer{
+  margin: 0% 1.5vw 0% 1.5vw;
+  text-decoration-line: none;
+  color: #fff !important;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.link-footer:hover {
+  color:#fff !important;
+}
+.footer-list{
+  display: flex;
+  padding-left: 0px;
+  padding-top: 4vh;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
