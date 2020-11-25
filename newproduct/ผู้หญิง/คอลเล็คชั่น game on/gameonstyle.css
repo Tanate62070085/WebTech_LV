@@ -2,6 +2,7 @@
 body{
     font-family:"Futura Std Book"; src: url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.eot"); src: url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.woff") format("woff"), url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/35e5d1a7aa6da471de4cfb4a47ebaca8.svg#Futura Std Book") format("svg");
 }
+
 .card1 {
     
     width: 403px;
