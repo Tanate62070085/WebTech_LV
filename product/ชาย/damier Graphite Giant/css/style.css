@@ -11,7 +11,8 @@
         url("//db.onlinewebfonts.com/t/64c0284f1ada1cf79ec484ac28eee170.svg#Louis Vuitton") format("svg"); }}
 .clearfix:before,
 .clearfix:after{
-    display: grid
+    display: grid;
+    overflow-x: hidden;
 }
 .boxdetail{
     margin-top: 0em;
